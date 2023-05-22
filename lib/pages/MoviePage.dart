@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 import '../widgets/CustomNavBar.dart';
+import '../widgets/MoviePageButtons.dart';
 
 class MoviePage extends StatelessWidget {
   const MoviePage({super.key});
@@ -51,7 +52,7 @@ class MoviePage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 60,
+                    height: 20,
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 40),
@@ -72,6 +73,10 @@ class MoviePage extends StatelessWidget {
                       ],
                     ),
                   ),
+                   SizedBox(
+                    height: 20,
+                  ),
+                  MoviePageButtons(),
                 ],
               ),
             ),
