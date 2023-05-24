@@ -17,6 +17,7 @@ class CustomNavBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           InkWell(
+           
             onTap: () {
               //navigate to home page
               Navigator.pushNamed(context, "/");

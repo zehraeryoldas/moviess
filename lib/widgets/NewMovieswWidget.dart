@@ -76,7 +76,7 @@ class NewMovieswWidget extends StatelessWidget {
                           "Action/Adventure",
                           style: TextStyle(fontSize: 12, color: Colors.grey),
                         ),
-                        Row(
+                      const  Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
                             Icon(
